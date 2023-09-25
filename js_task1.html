@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+<script>
+    var x=12345;
+    var rev=0;
+    document.write(x +"<br>");
+    while(x>0){
+        let r=x%10;
+        rev=rev*10+r;
+        x=parseInt(x/10);
+    }
+    
+    document.write(rev);
+</script>
+</body>
+</html>
